@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
                 <div className="w-4 h-4 bg-primary-foreground rounded-full"></div>
               </div>
-              <span className="text-xl font-bold">PENTAX</span>
+              <span className="text-xl font-bold">Sunny's Page</span>
             </div>
             <p className="text-secondary-foreground/80 leading-relaxed">
               Professional photography services capturing life's most precious moments with artistic vision and technical excellence.
@@ -51,7 +51,7 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary" />
-                <span className="text-secondary-foreground/80">hello@pentax.com</span>
+                <span className="text-secondary-foreground/80">hello@sunnyspage.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary" />
@@ -67,7 +67,7 @@ const Footer = () => {
 
         <div className="border-t border-secondary-foreground/20 mt-12 pt-8 text-center">
           <p className="text-secondary-foreground/60">
-            © 2024 Pentax Photography. All rights reserved.
+            © 2024 Sunny's Page Photography. All rights reserved.
           </p>
         </div>
       </div>
