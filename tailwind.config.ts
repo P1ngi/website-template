@@ -52,6 +52,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Photography theme colors
+				'warm-beige': 'hsl(var(--warm-beige))',
+				'sand': 'hsl(var(--sand))',
+				'red-accent': 'hsl(var(--red-accent))',
+				'dark-navy': 'hsl(var(--dark-navy))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
