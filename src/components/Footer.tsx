@@ -1,4 +1,4 @@
-import { Instagram, Twitter, Facebook, Mail, Phone, MapPin } from "lucide-react";
+import { Instagram, Twitter, Youtube, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -24,7 +24,7 @@ const Footer = () => {
                 <Twitter className="w-5 h-5" />
               </a>
               <a href="#" className="text-secondary-foreground/60 hover:text-primary transition-colors">
-                <Facebook className="w-5 h-5" />
+                <Youtube className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -51,15 +51,7 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary" />
-                <span className="text-secondary-foreground/80">hello@sunnyspage.com</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-primary" />
-                <span className="text-secondary-foreground/80">+1 (555) 123-4567</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <MapPin className="w-5 h-5 text-primary" />
-                <span className="text-secondary-foreground/80">123 Photography St, City, State 12345</span>
+                <span className="text-secondary-foreground/80">sunnyhe848@gmail.com</span>
               </div>
             </div>
           </div>
