@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Mail, Linkedin, Instagram, Github } from "lucide-react";
+import { Mail, Linkedin, Instagram, Github, ArrowLeft } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-background">
       {/* Header spacing */}
@@ -40,8 +42,12 @@ const About = () => {
               I really like drawing blah blah blah im lazy rn maybe later hehe
             </p>
 
-            {/* Get in touch button */}
-            <div className="mb-8">
+            {/* Back and Get in touch buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+              <Button variant="outline" size="lg" className="gap-2" onClick={() => navigate("/")}>
+                <ArrowLeft className="w-4 h-4" />
+                Back
+              </Button>
               <Button variant="outline" size="lg" className="gap-2">
                 <Mail className="w-4 h-4" />
                 Get in touch
