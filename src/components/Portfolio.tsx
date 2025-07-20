@@ -7,20 +7,26 @@ const Portfolio = () => {
 
   const filters = [
     { id: "all", label: "all" },
-    { id: "wedding", label: "wedding" },
-    { id: "motion", label: "motion" },
-    { id: "portrait", label: "portrait" },
-    { id: "fashion", label: "fashion" },
+    { id: "photography", label: "Photography" },
+    { id: "drawing", label: "Drawing" },
+    { id: "animatic", label: "Animatic" },
+    { id: "edits", label: "Edits" },
   ];
 
   const portfolioItems = [
-    { id: 1, category: "fashion", title: "Fashion photography", image: portfolioImage },
-    { id: 2, category: "construction", title: "Desert Work, Dubai", image: portfolioImage },
-    { id: 3, category: "construction", title: "Desert Work, Dubai", image: portfolioImage },
-    { id: 4, category: "construction", title: "Desert Work, Dubai", image: portfolioImage },
-    { id: 5, category: "construction", title: "Desert Work, Dubai", image: portfolioImage },
-    { id: 6, category: "construction", title: "Desert Work, Dubai", image: portfolioImage },
+    { id: 1, category: "photography", title: "Portrait Session", image: portfolioImage },
+    { id: 2, category: "photography", title: "Wedding Photography", image: portfolioImage },
+    { id: 3, category: "drawing", title: "Digital Illustration", image: portfolioImage },
+    { id: 4, category: "drawing", title: "Character Design", image: portfolioImage },
+    { id: 5, category: "animatic", title: "Story Boarding", image: portfolioImage },
+    { id: 6, category: "animatic", title: "Motion Graphics", image: portfolioImage },
+    { id: 7, category: "edits", title: "Photo Retouching", image: portfolioImage },
+    { id: 8, category: "edits", title: "Color Grading", image: portfolioImage },
   ];
+
+  const filteredItems = activeFilter === "all" 
+    ? portfolioItems 
+    : portfolioItems.filter(item => item.category === activeFilter);
 
   return (
     <section id="portfolio" className="py-20 bg-background">
@@ -53,7 +59,7 @@ const Portfolio = () => {
 
         {/* Portfolio Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {portfolioItems.map((item) => (
+          {filteredItems.map((item) => (
             <div
               key={item.id}
               className="group relative overflow-hidden rounded-lg bg-card hover:shadow-lg transition-all duration-300"
