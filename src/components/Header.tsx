@@ -8,7 +8,6 @@ const Header = () => {
   const navItems = [
     { name: "HOME", href: "/" },
     { name: "ABOUT", href: "/about" },
-    { name: "SERVICES", href: "#services" },
     { name: "PROJECT", href: "#portfolio" },
     { name: "BLOG", href: "#blog" },
     { name: "CONTACT", href: "#contact" },
@@ -20,9 +19,6 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-              <div className="w-4 h-4 bg-primary-foreground rounded-full"></div>
-            </div>
             <span className="text-xl font-bold text-foreground">Sunny's Page</span>
           </div>
 
