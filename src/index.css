@@ -10,27 +10,27 @@ All colors MUST be HSL.
   :root {
     /* Photography theme - warm sandy beige background */
     --background: 40 30% 92%;
-    --foreground: 220 40% 15%;
+    --foreground: 180 40% 15%;
 
     --card: 40 25% 96%;
-    --card-foreground: 220 40% 15%;
+    --card-foreground: 180 40% 15%;
 
     --popover: 40 25% 96%;
-    --popover-foreground: 220 40% 15%;
+    --popover-foreground: 180 40% 15%;
 
     /* Red accent color like the original */
     --primary: 0 65% 55%;
     --primary-foreground: 40 30% 92%;
 
-    /* Dark navy for secondary elements */
-    --secondary: 220 40% 15%;
+    /* Dark green/violet for secondary elements */
+    --secondary: 180 40% 15%;
     --secondary-foreground: 40 30% 92%;
 
     --muted: 40 20% 88%;
-    --muted-foreground: 220 20% 40%;
+    --muted-foreground: 180 20% 40%;
 
     --accent: 40 20% 88%;
-    --accent-foreground: 220 40% 15%;
+    --accent-foreground: 180 40% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 40 30% 92%;
@@ -45,7 +45,7 @@ All colors MUST be HSL.
     --warm-beige: 40 30% 92%;
     --sand: 40 25% 88%;
     --red-accent: 0 65% 55%;
-    --dark-navy: 220 40% 15%;
+    --dark-navy: 180 40% 15%;
     --soft-shadow: 0 0% 0% / 0.1;
 
     --sidebar-background: 0 0% 98%;
@@ -66,32 +66,32 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 220 40% 8%;
+    --background: 180 40% 8%;
     --foreground: 40 30% 92%;
 
-    --card: 220 40% 10%;
+    --card: 180 40% 10%;
     --card-foreground: 40 30% 92%;
 
-    --popover: 220 40% 10%;
+    --popover: 180 40% 10%;
     --popover-foreground: 40 30% 92%;
 
     --primary: 0 65% 55%;
     --primary-foreground: 40 30% 92%;
 
-    --secondary: 220 30% 20%;
+    --secondary: 180 30% 20%;
     --secondary-foreground: 40 30% 92%;
 
-    --muted: 220 30% 15%;
+    --muted: 180 30% 15%;
     --muted-foreground: 40 20% 70%;
 
-    --accent: 220 30% 15%;
+    --accent: 180 30% 15%;
     --accent-foreground: 40 30% 92%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 40 30% 92%;
 
-    --border: 220 30% 20%;
-    --input: 220 30% 20%;
+    --border: 180 30% 20%;
+    --input: 180 30% 20%;
     --ring: 0 65% 55%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
