@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Instagram, Twitter, Youtube } from "lucide-react";
+import { Instagram, Youtube } from "lucide-react";
 const heroImage = "/lovable-uploads/d1ff5244-53bb-409b-aff5-61f41c7b9028.png";
 
 const Hero = () => {
@@ -52,13 +52,6 @@ const Hero = () => {
               >
                 <Instagram className="w-5 h-5" />
                 <span>Instagram</span>
-              </a>
-              <a 
-                href="#" 
-                className="flex items-center space-x-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-              >
-                <Twitter className="w-5 h-5" />
-                <span>Twitter</span>
               </a>
               <a 
                 href="#" 

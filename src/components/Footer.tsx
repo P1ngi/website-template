@@ -1,4 +1,4 @@
-import { Instagram, Twitter, Youtube, Mail } from "lucide-react";
+import { Instagram, Youtube, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -19,9 +19,6 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a href="#" className="text-secondary-foreground/60 hover:text-primary transition-colors">
                 <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-secondary-foreground/60 hover:text-primary transition-colors">
-                <Twitter className="w-5 h-5" />
               </a>
               <a href="#" className="text-secondary-foreground/60 hover:text-primary transition-colors">
                 <Youtube className="w-5 h-5" />
