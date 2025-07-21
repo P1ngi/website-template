@@ -6,7 +6,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { name: "HOME", href: "/" },
+    { name: "HOME", href: "https://username-taken-site.vercel.app/home" },
     { name: "ABOUT", href: "/about" },
     { name: "PROJECT", href: "#portfolio" },
     { name: "BLOG", href: "#blog" },
@@ -31,6 +31,7 @@ const Header = () => {
                 className={`text-sm font-medium transition-colors hover:text-primary ${
                   index === 0 ? "text-primary" : "text-muted-foreground"
                 }`}
+                {...(item.href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
               >
                 {item.name}
               </a>
@@ -60,6 +61,7 @@ const Header = () => {
                     index === 0 ? "text-primary" : "text-muted-foreground"
                   }`}
                   onClick={() => setIsMenuOpen(false)}
+                  {...(item.href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                 >
                   {item.name}
                 </a>

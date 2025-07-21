@@ -33,13 +33,20 @@ const Footer = () => {
           <div className="space-y-6">
             <h3 className="text-lg font-semibold">Quick Links</h3>
             <nav className="space-y-3">
-              {["Home", "About", "Services", "Portfolio", "Blog", "Contact"].map((link) => (
+              {[
+                { name: "Home", href: "https://username-taken-site.vercel.app/home" },
+                { name: "About", href: "/about" },
+                { name: "Portfolio", href: "#portfolio" },
+                { name: "Blog", href: "#blog" },
+                { name: "Contact", href: "#contact" }
+              ].map((link) => (
                 <a
-                  key={link}
-                  href={`#${link.toLowerCase()}`}
+                  key={link.name}
+                  href={link.href}
                   className="block text-secondary-foreground/80 hover:text-primary transition-colors"
+                  {...(link.href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                 >
-                  {link}
+                  {link.name}
                 </a>
               ))}
             </nav>
