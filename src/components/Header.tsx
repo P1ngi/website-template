@@ -19,9 +19,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <a href="/" className="text-xl font-bold text-foreground hover:text-primary transition-colors">
-              Sunny's Page
-            </a>
+            <span className="text-xl font-bold text-foreground">Sunny's Page</span>
           </div>
 
           {/* Desktop Navigation */}

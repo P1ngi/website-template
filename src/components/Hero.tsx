@@ -35,8 +35,13 @@ const Hero = () => {
               </p>
             </div>
 
-            <Button variant="photography" size="xl" className="uppercase tracking-wider">
-              View Portfolio
+            <Button 
+              variant="photography" 
+              size="xl" 
+              className="uppercase tracking-wider"
+              onClick={() => window.open('https://username-taken-site.vercel.app/home', '_blank')}
+            >
+              Back to Main Page
             </Button>
 
             {/* Social Links */}
