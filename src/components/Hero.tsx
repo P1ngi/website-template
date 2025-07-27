@@ -47,7 +47,7 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex items-center space-x-6 pt-8">
               <a 
-                href="#" 
+                href="https://www.instagram.com/p1ngi_/"
                 className="flex items-center space-x-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
               >
                 <Instagram className="w-5 h-5" />

@@ -17,7 +17,7 @@ const Footer = () => {
               Professional photography services capturing life's most precious moments with artistic vision and technical excellence.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-secondary-foreground/60 hover:text-primary transition-colors">
+              <a href="https://www.instagram.com/p1ngi_/" className="text-secondary-foreground/60 hover:text-primary transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
               <a href="#" className="text-secondary-foreground/60 hover:text-primary transition-colors">
