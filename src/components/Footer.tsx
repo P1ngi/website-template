@@ -20,7 +20,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/p1ngi_/" className="text-secondary-foreground/60 hover:text-primary transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="text-secondary-foreground/60 hover:text-primary transition-colors">
+              <a href="hinamida" className="text-secondary-foreground/60 hover:text-primary transition-colors">
                 <Youtube className="w-5 h-5" />
               </a>
             </div>
