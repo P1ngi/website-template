@@ -26,7 +26,7 @@ const Hero = () => {
               <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
                 <span className="text-foreground">i am</span>
                 <br />
-                <span className="text-primary">Professional</span>
+                <span className="text-primary">little artist</span>
                 <br />
                 <span className="text-foreground">Photographer</span>
               </h1>
