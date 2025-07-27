@@ -54,7 +54,7 @@ const Hero = () => {
                 <span>Instagram</span>
               </a>
               <a 
-                href="hinamida" 
+                href="https://www.youtube.com/@lilahinamida" 
                 className="flex items-center space-x-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
               >
                 <Youtube className="w-5 h-5" />
